@@ -1,31 +1,61 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: minc-nice-100 # Your GitHub organization or username, where this repository lives
+repo: uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: 主站
+    url: https://ited.top
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: 心理分站
+    url: https://yy.ited.top
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: Telegraph图床（上传）
+    url: https://oss.ited.top/
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: Telegraph图床（下载）
+    url: https://oss.ited.top/file/361528033f3e5fcb7c5c4.gif
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: 网盘
+    url: https://pan.ited.top/
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: 公共文件站
+    url: https://public.ited.top/
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: 文档站
+    url: https://docs.ited.top/
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: 系统状态
+    url: https://on.ited.top/
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
+  - name: B2储存桶
+    url: https://b2.ited.top/0.gif
+    maxResponseTime: 6000
+    __dangerous__body_down: "不对劲... 是时候翻遍日志，并在堆栈跟踪中找出问题所在了"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: on.ited.top
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://lib.ited.top/favicon.ico
+  name: 状态 - ited博客
+  introTitle: "这是ited博客的业务状态页，同时也是一个网址导航"
+  introMessage: 此业务托管于github
   navbar:
-    - title: Status
+    - title: 首页
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: 主站
+      href: https://ited.top
+    - title: 隐私政策
+      href: https://ited.top/privacy-policy.html
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
